@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on kurakurara&#39;s page</title>
+    <link>https://example.com/tags/hugo/</link>
+    <description>Recent content in Hugo on kurakurara&#39;s page</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <managingEditor>user@example.com (Hugo Author)</managingEditor>
+    <webMaster>user@example.com (Hugo Author)</webMaster>
+    <copyright>kura</copyright>
+    <lastBuildDate>Sat, 09 Aug 2025 02:52:51 +0900</lastBuildDate>
+    <atom:link href="https://example.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test_post2</title>
+      <link>https://example.com/posts/test_post2/</link>
+      <pubDate>Sat, 09 Aug 2025 02:52:51 +0900</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>https://example.com/posts/test_post2/</guid>
+      <description>&lt;h1 id=&#34;hugo環境構築はまったポイントスペシャル&#34;&gt;HUGO環境構築はまったポイントスペシャル&lt;/h1&gt;&#xA;&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WSL上にHUGOをインストール&lt;/li&gt;&#xA;&lt;li&gt;編集はWindows側のVSCodeから&lt;/li&gt;&#xA;&lt;li&gt;テーマは「TailwindCSS」を使用&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ほんへ&#34;&gt;ほんへ&lt;/h2&gt;&#xA;&lt;h3 id=&#34;バージョンの相性&#34;&gt;バージョンの相性&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;では後々うまくいかなかった。代わりに&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dpkg -i hugo_extended_0.128.0_linux-amd64.deb&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;でインストール。&lt;/p&gt;&#xA;&lt;h3 id=&#34;日本語&#34;&gt;日本語&lt;/h3&gt;&#xA;&lt;p&gt;手順は複雑だった。&lt;br&gt;&#xA;&lt;code&gt;hugo.toml&lt;/code&gt;に&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;languageCode = &amp;#34;ja&amp;#34;&#xA;defaultContentLanguage = &amp;#39;ja&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;を追加(または&lt;code&gt;en&lt;/code&gt;からの変更)。&lt;code&gt;themes/tailwind/i18n/jp.toml&lt;/code&gt;をコピーし&lt;code&gt;ja.toml&lt;/code&gt;にする(元ファイルは消さない)。あとは&lt;code&gt;language&lt;/code&gt;とかでファイル内容検索かけて片っ端から&lt;code&gt;ja&lt;/code&gt;に置換していく。&lt;/p&gt;&#xA;&lt;h3 id=&#34;indexmdの件と画像サイズの件&#34;&gt;index.mdの件と画像サイズの件&lt;/h3&gt;</description>
+    </item>
+  </channel>
+</rss>

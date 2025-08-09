@@ -33,9 +33,6 @@
 
 
 
-  
-
-
 
 
 
@@ -168,12 +165,27 @@
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    HUGO環境構築はまったポイントスペシャル 環境 WSL上にHUGOをインストール 編集はWindows側のVSCodeから テーマは「TailwindCSS」を使用 ほんへ バージョンの相性 sudo apt install hugo では後々うまくいかなかった。代わりに
-wget <a href="https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb" target="_blank" rel="noopener">https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb</a>
- sudo dpkg -i hugo_extended_0.128.0_linux-amd64.deb でインストール。日本語 手順は複雑だった。
-hugo.tomlに
-languageCode = &quot;ja&quot; defaultContentLanguage = 'ja' を追加(またはenからの変更)。themes/tailwind/i18n/jp.tomlをコピーしja.tomlにする(元ファイルは消さない)。あとはlanguageとかでファイル内容検索かけて片っ端からjaに置換していく。
-index.mdの件と画像サイズの件
+    <h1 id="hugo環境構築はまったポイントスペシャル">HUGO環境構築はまったポイントスペシャル</h1>
+<h2 id="環境">環境</h2>
+<ul>
+<li>WSL上にHUGOをインストール</li>
+<li>編集はWindows側のVSCodeから</li>
+<li>テーマは「TailwindCSS」を使用</li>
+</ul>
+<h2 id="ほんへ">ほんへ</h2>
+<h3 id="バージョンの相性">バージョンの相性</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install hugo
+</span></span></code></pre></div><p>では後々うまくいかなかった。代わりに</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb
+</span></span><span class="line"><span class="cl">sudo dpkg -i hugo_extended_0.128.0_linux-amd64.deb
+</span></span></code></pre></div><p>でインストール。</p>
+<h3 id="日本語">日本語</h3>
+<p>手順は複雑だった。<br>
+<code>hugo.toml</code>に</p>
+<pre tabindex="0"><code>languageCode = &#34;ja&#34;
+defaultContentLanguage = &#39;ja&#39;
+</code></pre><p>を追加(または<code>en</code>からの変更)。<code>themes/tailwind/i18n/jp.toml</code>をコピーし<code>ja.toml</code>にする(元ファイルは消さない)。あとは<code>language</code>とかでファイル内容検索かけて片っ端から<code>ja</code>に置換していく。</p>
+<h3 id="indexmdの件と画像サイズの件">index.mdの件と画像サイズの件</h3>
   </div>
   
 
@@ -277,7 +289,20 @@ index.mdの件と画像サイズの件
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    😁✊ 😁✊😁 😁✊😁 😁✊😁 😁✊😁 😁✊😁 😁✊😁 😁✊😁 😁✊😁 😁✊😁 😁✊✊😁 😁✊✊✊✊😁 😁✊✊ ✊✊😁 😁✊ ✊😁
+    😁✊
+😁✊😁
+😁✊😁
+😁✊😁
+😁✊😁
+😁✊😁
+😁✊😁
+😁✊😁
+😁✊😁
+😁✊😁
+😁✊✊😁
+😁✊✊✊✊😁
+😁✊✊  ✊✊😁
+😁✊       ✊😁
   </div>
   
 
@@ -340,7 +365,8 @@ index.mdの件と画像サイズの件
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    画像の貼り方 はまったポイントとして、Markdownのファイル名が&quot;index.md&quot;でないとパス関係がぐちゃぐちゃになる。
+    <h1 id="画像の貼り方">画像の貼り方</h1>
+<p>はまったポイントとして、Markdownのファイル名が&quot;index.md&quot;でないとパス関係がぐちゃぐちゃになる。<img class="cimg" src="river.jpg" alt="川の様子"></p>
   </div>
   
 
@@ -403,7 +429,8 @@ index.mdの件と画像サイズの件
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    川の様子 川川川川川川川川川川川川川川川川川川川川川川川川川川川
+    <h1 id="川の様子">川の様子</h1>
+<p>川川川川川川川川川川川川川川川川川川川川川川川川川川川<img class="cimg" src="../river.jpg" alt="川の様子"></p>
   </div>
   
 
@@ -466,7 +493,15 @@ index.mdの件と画像サイズの件
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    画像挿入テスト
+    <h1 id="画像挿入テスト">画像挿入テスト</h1>
+<p><div class="not-prose">
+<figure>
+    <img src="river.jpg"
+      alt="川" 
+      loading="lazy"
+    >
+  </figure></div>
+</p>
   </div>
   
 
@@ -529,7 +564,15 @@ index.mdの件と画像サイズの件
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    画像挿入テスト
+    <h1 id="画像挿入テスト">画像挿入テスト</h1>
+<p><div class="not-prose">
+<figure>
+    <img src="../river.jpg"
+      alt="川" 
+      loading="lazy"
+    >
+  </figure></div>
+</p>
   </div>
   
 
@@ -592,12 +635,50 @@ index.mdの件と画像サイズの件
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    初めに WSL上にHUGO の環境を作ってみた。前提 Ubuntu on WSL ’ cd ‘使えるくらいのlinuxの知識 やる気 環境構築 HUGOのインストール wget <a href="https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb" target="_blank" rel="noopener">https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb</a>
- sudo dpkg -i hugo_extended_0.128.0_linux-amd64.deb 失敗例 <code>bash sudo apt install hugo </code> Cpoilot君によると後の手順で使うやつとバージョンの整合が取れないらしい。 hugo version ってインストールできたか確認。サーバー起動 テーマをダウンロードして、サーバを起動。
-hugo new site quickstart cd quickstart git init git submodule add <a href="https://github.com/theNewDynamic/gohugo-theme-ananke.git" target="_blank" rel="noopener">https://github.com/theNewDynamic/gohugo-theme-ananke.git</a>
- themes/ananke echo &quot;theme = 'ananke'&quot; &gt;&gt; hugo.toml hugo server そのうち
-Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) のように表示されるので表示されたURLをブラウザで開く。ページを作る HUGOのテンプレが当たったページを作成。適当な内容を書いて保存。
-hugo new content content/posts/my-first-post.md nano content/posts/my-first-post.
+    <h1 id="初めに">初めに</h1>
+<p>WSL上に<a href="https://gohugo.io" target="_blank" rel="noopener">HUGO</a>
+の環境を作ってみた。</p>
+<h1 id="前提">前提</h1>
+<ul>
+<li>Ubuntu on WSL</li>
+<li>&rsquo; cd &lsquo;使えるくらいのlinuxの知識</li>
+<li>やる気</li>
+</ul>
+<h1 id="環境構築">環境構築</h1>
+<h2 id="hugoのインストール">HUGOのインストール</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb
+</span></span><span class="line"><span class="cl">sudo dpkg -i hugo_extended_0.128.0_linux-amd64.deb
+</span></span></code></pre></div><details><summary>失敗例</summary>
+```bash
+sudo apt install hugo
+```
+Cpoilot君によると後の手順で使うやつとバージョンの整合が取れないらしい。
+</details>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo version
+</span></span></code></pre></div><p>ってインストールできたか確認。</p>
+<h2 id="サーバー起動">サーバー起動</h2>
+<p>テーマをダウンロードして、サーバを起動。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site quickstart
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> quickstart
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;theme = &#39;ananke&#39;&#34;</span> &gt;&gt; hugo.toml
+</span></span><span class="line"><span class="cl">hugo server
+</span></span></code></pre></div><p>そのうち</p>
+<pre tabindex="0"><code>Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+</code></pre><p>のように表示されるので表示されたURLをブラウザで開く。</p>
+<h2 id="ページを作る">ページを作る</h2>
+<p>HUGOのテンプレが当たったページを作成。適当な内容を書いて保存。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new content content/posts/my-first-post.md
+</span></span><span class="line"><span class="cl">nano content/posts/my-first-post.md
+</span></span></code></pre></div><p>さっきのURLを開いたブラウザで見たら、新しいページが増えているはずである。<div class="not-prose">
+<figure>
+    <img src="img1.png"
+      alt="大体できスト" 
+      loading="lazy"
+    >
+  </figure></div>
+</p>
   </div>
   
 

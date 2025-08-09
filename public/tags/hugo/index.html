@@ -33,9 +33,6 @@
 
 
 
-  
-
-
 
 
 
@@ -168,12 +165,27 @@
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    HUGO環境構築はまったポイントスペシャル 環境 WSL上にHUGOをインストール 編集はWindows側のVSCodeから テーマは「TailwindCSS」を使用 ほんへ バージョンの相性 sudo apt install hugo では後々うまくいかなかった。代わりに
-wget <a href="https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb" target="_blank" rel="noopener">https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb</a>
- sudo dpkg -i hugo_extended_0.128.0_linux-amd64.deb でインストール。日本語 手順は複雑だった。
-hugo.tomlに
-languageCode = &quot;ja&quot; defaultContentLanguage = 'ja' を追加(またはenからの変更)。themes/tailwind/i18n/jp.tomlをコピーしja.tomlにする(元ファイルは消さない)。あとはlanguageとかでファイル内容検索かけて片っ端からjaに置換していく。
-index.mdの件と画像サイズの件
+    <h1 id="hugo環境構築はまったポイントスペシャル">HUGO環境構築はまったポイントスペシャル</h1>
+<h2 id="環境">環境</h2>
+<ul>
+<li>WSL上にHUGOをインストール</li>
+<li>編集はWindows側のVSCodeから</li>
+<li>テーマは「TailwindCSS」を使用</li>
+</ul>
+<h2 id="ほんへ">ほんへ</h2>
+<h3 id="バージョンの相性">バージョンの相性</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install hugo
+</span></span></code></pre></div><p>では後々うまくいかなかった。代わりに</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb
+</span></span><span class="line"><span class="cl">sudo dpkg -i hugo_extended_0.128.0_linux-amd64.deb
+</span></span></code></pre></div><p>でインストール。</p>
+<h3 id="日本語">日本語</h3>
+<p>手順は複雑だった。<br>
+<code>hugo.toml</code>に</p>
+<pre tabindex="0"><code>languageCode = &#34;ja&#34;
+defaultContentLanguage = &#39;ja&#39;
+</code></pre><p>を追加(または<code>en</code>からの変更)。<code>themes/tailwind/i18n/jp.toml</code>をコピーし<code>ja.toml</code>にする(元ファイルは消さない)。あとは<code>language</code>とかでファイル内容検索かけて片っ端から<code>ja</code>に置換していく。</p>
+<h3 id="indexmdの件と画像サイズの件">index.mdの件と画像サイズの件</h3>
   </div>
   
 

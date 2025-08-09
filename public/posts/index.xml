@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on kurakurara&#39;s page</title>
-    <link>https://example.com/posts/</link>
+    <link>https://sakusan7200.github.io/hugo_test/posts/</link>
     <description>Recent content in Posts on kurakurara&#39;s page</description>
     <generator>Hugo</generator>
     <language>ja</language>
@@ -10,54 +10,54 @@
     <webMaster>user@example.com (Hugo Author)</webMaster>
     <copyright>kura</copyright>
     <lastBuildDate>Sat, 09 Aug 2025 02:52:51 +0900</lastBuildDate>
-    <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sakusan7200.github.io/hugo_test/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test_post2</title>
-      <link>https://example.com/posts/test_post2/</link>
+      <link>https://sakusan7200.github.io/hugo_test/posts/test_post2/</link>
       <pubDate>Sat, 09 Aug 2025 02:52:51 +0900</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://example.com/posts/test_post2/</guid>
+      <guid>https://sakusan7200.github.io/hugo_test/posts/test_post2/</guid>
       <description>&lt;h1 id=&#34;hugo環境構築はまったポイントスペシャル&#34;&gt;HUGO環境構築はまったポイントスペシャル&lt;/h1&gt;&#xA;&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WSL上にHUGOをインストール&lt;/li&gt;&#xA;&lt;li&gt;編集はWindows側のVSCodeから&lt;/li&gt;&#xA;&lt;li&gt;テーマは「TailwindCSS」を使用&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ほんへ&#34;&gt;ほんへ&lt;/h2&gt;&#xA;&lt;h3 id=&#34;バージョンの相性&#34;&gt;バージョンの相性&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;では後々うまくいかなかった。代わりに&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dpkg -i hugo_extended_0.128.0_linux-amd64.deb&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;でインストール。&lt;/p&gt;&#xA;&lt;h3 id=&#34;日本語&#34;&gt;日本語&lt;/h3&gt;&#xA;&lt;p&gt;手順は複雑だった。&lt;br&gt;&#xA;&lt;code&gt;hugo.toml&lt;/code&gt;に&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;languageCode = &amp;#34;ja&amp;#34;&#xA;defaultContentLanguage = &amp;#39;ja&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;を追加(または&lt;code&gt;en&lt;/code&gt;からの変更)。&lt;code&gt;themes/tailwind/i18n/jp.toml&lt;/code&gt;をコピーし&lt;code&gt;ja.toml&lt;/code&gt;にする(元ファイルは消さない)。あとは&lt;code&gt;language&lt;/code&gt;とかでファイル内容検索かけて片っ端から&lt;code&gt;ja&lt;/code&gt;に置換していく。&lt;/p&gt;&#xA;&lt;h3 id=&#34;indexmdの件と画像サイズの件&#34;&gt;index.mdの件と画像サイズの件&lt;/h3&gt;</description>
     </item>
     <item>
       <title>まんこーーｗｗｗｗ🤣🤣🤣🤣🤣🤣🤣</title>
-      <link>https://example.com/posts/manco1/</link>
+      <link>https://sakusan7200.github.io/hugo_test/posts/manco1/</link>
       <pubDate>Sat, 09 Aug 2025 02:20:02 +0900</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://example.com/posts/manco1/</guid>
+      <guid>https://sakusan7200.github.io/hugo_test/posts/manco1/</guid>
       <description>&lt;p&gt;😁✊&#xA;😁✊😁&#xA;😁✊😁&#xA;😁✊😁&#xA;😁✊😁&#xA;😁✊😁&#xA;😁✊😁&#xA;😁✊😁&#xA;😁✊😁&#xA;😁✊😁&#xA;😁✊✊😁&#xA;😁✊✊✊✊😁&#xA;😁✊✊  ✊✊😁&#xA;😁✊       ✊😁&lt;/p&gt;</description>
     </item>
     <item>
       <title>Img10</title>
-      <link>https://example.com/posts/img10/</link>
+      <link>https://sakusan7200.github.io/hugo_test/posts/img10/</link>
       <pubDate>Sat, 09 Aug 2025 02:13:43 +0900</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://example.com/posts/img10/</guid>
+      <guid>https://sakusan7200.github.io/hugo_test/posts/img10/</guid>
       <description>&lt;h1 id=&#34;画像の貼り方&#34;&gt;画像の貼り方&lt;/h1&gt;&#xA;&lt;p&gt;はまったポイントとして、Markdownのファイル名が&amp;quot;index.md&amp;quot;でないとパス関係がぐちゃぐちゃになる。&lt;img class=&#34;cimg&#34; src=&#34;river.jpg&#34; alt=&#34;川の様子&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Imgtest4</title>
-      <link>https://example.com/posts/img_test_series/s2/imgtest4/</link>
+      <link>https://sakusan7200.github.io/hugo_test/posts/img_test_series/s2/imgtest4/</link>
       <pubDate>Fri, 08 Aug 2025 21:14:44 +0900</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://example.com/posts/img_test_series/s2/imgtest4/</guid>
+      <guid>https://sakusan7200.github.io/hugo_test/posts/img_test_series/s2/imgtest4/</guid>
       <description>&lt;h1 id=&#34;川の様子&#34;&gt;川の様子&lt;/h1&gt;&#xA;&lt;p&gt;川川川川川川川川川川川川川川川川川川川川川川川川川川川&lt;img class=&#34;cimg&#34; src=&#34;../river.jpg&#34; alt=&#34;川の様子&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>s1Imgtest3</title>
-      <link>https://example.com/posts/img_test_series/s1/imgtest3/</link>
+      <link>https://sakusan7200.github.io/hugo_test/posts/img_test_series/s1/imgtest3/</link>
       <pubDate>Fri, 08 Aug 2025 21:10:06 +0900</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://example.com/posts/img_test_series/s1/imgtest3/</guid>
+      <guid>https://sakusan7200.github.io/hugo_test/posts/img_test_series/s1/imgtest3/</guid>
       <description>&lt;h1 id=&#34;画像挿入テスト&#34;&gt;画像挿入テスト&lt;/h1&gt;&#xA;&lt;p&gt;&lt;div class=&#34;not-prose&#34;&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;river.jpg&#34;&#xA;      alt=&#34;川&#34; &#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&#xA;  &lt;/figure&gt;&lt;/div&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Img_test2</title>
-      <link>https://example.com/posts/20250808/img_test2/</link>
+      <link>https://sakusan7200.github.io/hugo_test/posts/20250808/img_test2/</link>
       <pubDate>Fri, 08 Aug 2025 21:05:47 +0900</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://example.com/posts/20250808/img_test2/</guid>
+      <guid>https://sakusan7200.github.io/hugo_test/posts/20250808/img_test2/</guid>
       <description>&lt;h1 id=&#34;画像挿入テスト&#34;&gt;画像挿入テスト&lt;/h1&gt;&#xA;&lt;p&gt;&lt;div class=&#34;not-prose&#34;&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;../river.jpg&#34;&#xA;      alt=&#34;川&#34; &#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&#xA;  &lt;/figure&gt;&lt;/div&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://example.com/posts/my-first-post/</link>
+      <link>https://sakusan7200.github.io/hugo_test/posts/my-first-post/</link>
       <pubDate>Fri, 08 Aug 2025 20:18:25 +0900</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://example.com/posts/my-first-post/</guid>
+      <guid>https://sakusan7200.github.io/hugo_test/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;初めに&#34;&gt;初めに&lt;/h1&gt;&#xA;&lt;p&gt;WSL上に&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HUGO&lt;/a&gt;&#xA;の環境を作ってみた。&lt;/p&gt;&#xA;&lt;h1 id=&#34;前提&#34;&gt;前提&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ubuntu on WSL&lt;/li&gt;&#xA;&lt;li&gt;&amp;rsquo; cd &amp;lsquo;使えるくらいのlinuxの知識&lt;/li&gt;&#xA;&lt;li&gt;やる気&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;環境構築&#34;&gt;環境構築&lt;/h1&gt;&#xA;&lt;h2 id=&#34;hugoのインストール&#34;&gt;HUGOのインストール&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dpkg -i hugo_extended_0.128.0_linux-amd64.deb&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;details&gt;&lt;summary&gt;失敗例&lt;/summary&gt;&#xA;```bash&#xA;sudo apt install hugo&#xA;```&#xA;Cpoilot君によると後の手順で使うやつとバージョンの整合が取れないらしい。&#xA;&lt;/details&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;ってインストールできたか確認。&lt;/p&gt;&#xA;&lt;h2 id=&#34;サーバー起動&#34;&gt;サーバー起動&lt;/h2&gt;&#xA;&lt;p&gt;テーマをダウンロードして、サーバを起動。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site quickstart&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; quickstart&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;theme = &amp;#39;ananke&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; hugo.toml&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;そのうち&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;のように表示されるので表示されたURLをブラウザで開く。&lt;/p&gt;&#xA;&lt;h2 id=&#34;ページを作る&#34;&gt;ページを作る&lt;/h2&gt;&#xA;&lt;p&gt;HUGOのテンプレが当たったページを作成。適当な内容を書いて保存。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new content content/posts/my-first-post.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nano content/posts/my-first-post.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;さっきのURLを開いたブラウザで見たら、新しいページが増えているはずである。&lt;div class=&#34;not-prose&#34;&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;img1.png&#34;&#xA;      alt=&#34;大体できスト&#34; &#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&#xA;  &lt;/figure&gt;&lt;/div&gt;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>

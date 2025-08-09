@@ -1,0 +1,58 @@
+baseURL = "https://example.com/"
+title = "kurakurara's page"
+author = "kura"
+copyright = "kura"
+pagination.pagerSize = 10
+languageCode = "ja"
+defaultContentLanguage = 'ja'
+theme = "tailwind"
+
+
+
+[markup]
+  _merge = "deep"
+  [markup.goldmark]
+
+    [markup.goldmark.renderer]
+
+      unsafe = true
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  [params.header]
+    title = ""
+
+  [params.footer]
+    since = 2023
+    poweredby = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "投稿"
+    pageRef = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[social_media]
+[[social_media.items]]
+enabled = false
+title = 'Facebook'
+icon = 'brand-facebook'
+link = 'https://www.facebook.com/'
+
+
